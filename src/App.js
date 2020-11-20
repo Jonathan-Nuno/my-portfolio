@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// converted from function to class because we are using states
+class App extends React.Component {
+  
+  constructor(props) {
+    super(props);
+    // below state is for top level items, title, Navbar and links
+    this.state = {
+      title: 'Jonathan Nuno',
+      headerLinks: [
+        {title: 'Home', path: '/'},
+        {title: 'About', path: '/about'},
+        {title: 'Contact', path: '/contact'}
+      ],
+      home: {
+        title: 'Be Relentless',
+        subTitle: 'Projects that make a difference',
+        text: 'Checkout my projects below'
+      },
+      about: {
+        title: 'About Me'
+      },
+      contact: {
+        title: 'Let\'s Talk'
+      }
+    }
+  }
+
+  render() {
+    return (
+      <div>Hello From React</div>
+    );
+  }
 }
 
 export default App;

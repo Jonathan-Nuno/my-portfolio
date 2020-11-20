@@ -51,7 +51,7 @@ class App extends React.Component {
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
             {/* navbar.collapse is used to make a dropdown based on page size */}
             <Navbar.Collapse id='navbar-toggle'>
-              <Nav className="nl-auto">
+              <Nav className="ml-auto">
                 <Link className='nav-link' to='/'>Home</Link>
                 <Link className='nav-link' to='/about'>About</Link>
                 <Link className='nav-link' to='/contact'>Contact</Link>                              

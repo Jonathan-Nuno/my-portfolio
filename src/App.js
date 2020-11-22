@@ -53,7 +53,7 @@ class App extends React.Component {
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className="ml-auto">
                 <Link className='nav-link' to='/'>Home</Link>
-                <Link className='nav-link' to='/about'>About</Link>
+                <Link className='nav-link' to='/about'>About Me</Link>
                 <Link className='nav-link' to='/contact'>Contact</Link>                              
               </Nav>
             </Navbar.Collapse>

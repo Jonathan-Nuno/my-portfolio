@@ -5,8 +5,8 @@ require('dotenv').config()
 
 const sendGrid = require('@sendGrid/mail');
 const SG_API_KEY = process.env.SENDGRID_API_KEY;
-const PE = process.env.Personal_Email
-const PORT = process.env.PORT 
+const PE = process.env.Personal_Email;
+const PORT = process.env.PORT;
 
 const app = express();
 

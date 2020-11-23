@@ -6,6 +6,7 @@ import jnuno from '../assets/images/jnuno-profile.png'
 import knitworthy from '../assets/images/Knitworthy-mobile.png'
 import plannero from '../assets/images/Plannero-mobile.png'
 import gHub from '../assets/images/github_icon.png'
+import resume from '../assets/resume/Jnuno_Resume_11_19_20.pdf'
 
 import { Container, Row } from 'react-bootstrap'
 
@@ -19,8 +20,10 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Jonathan Nuno',
-                    subTitle: 'LinkedIn, Github & Resume',
+                    subTitle: 'Resume, LinkedIn & GitHub',
                     imgSrc: jnuno,
+                    resumeLink: resume,
+                    resumeName: 'Resume,',
                     link: 'https://www.linkedin.com/in/jonathannuno/',
                     name: 'LinkedIn',
                     github: 'https://github.com/Jonathan-Nuno',
@@ -32,6 +35,8 @@ class Carousel extends React.Component {
                     title: 'Knitworthy',
                     subTitle: 'Compares measurements to project stats',
                     imgSrc: knitworthy,
+                    resumeLink: '',
+                    resumeName: '',
                     link: 'http://knitworthy.net/',
                     name: 'Live Page',
                     github: 'https://github.com/abbeyperini/Knitworthy',
@@ -43,6 +48,8 @@ class Carousel extends React.Component {
                     title: 'Plannero',
                     subTitle: 'Keep track of your projects',
                     imgSrc: plannero,
+                    resumeLink: '',
+                    resumeName: '',
                     link: 'https://plannero.herokuapp.com/',
                     name: 'Live Page',
                     github: 'https://github.com/Jonathan-Nuno/Plannero',

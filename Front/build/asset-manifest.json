@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b4df6bfa.chunk.css",
-    "main.js": "/static/js/main.ac7d95d8.chunk.js",
-    "main.js.map": "/static/js/main.ac7d95d8.chunk.js.map",
+    "main.js": "/static/js/main.d42eabd2.chunk.js",
+    "main.js.map": "/static/js/main.d42eabd2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8b981526.js",
     "runtime-main.js.map": "/static/js/runtime-main.8b981526.js.map",
     "static/css/2.43b2b750.chunk.css": "/static/css/2.43b2b750.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.43b2b750.chunk.css.map": "/static/css/2.43b2b750.chunk.css.map",
     "static/css/main.b4df6bfa.chunk.css.map": "/static/css/main.b4df6bfa.chunk.css.map",
     "static/js/2.825fa741.chunk.js.LICENSE.txt": "/static/js/2.825fa741.chunk.js.LICENSE.txt",
+    "static/media/Jnuno_Resume_11_19_20.3e7282c6.pdf": "/static/media/Jnuno_Resume_11_19_20.3e7282c6.pdf",
     "static/media/Knitworthy-mobile.d90b071e.png": "/static/media/Knitworthy-mobile.d90b071e.png",
     "static/media/Plannero-mobile.64b15da2.png": "/static/media/Plannero-mobile.64b15da2.png",
     "static/media/github_icon.5994b25b.png": "/static/media/github_icon.5994b25b.png",
@@ -24,6 +25,6 @@
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.825fa741.chunk.js",
     "static/css/main.b4df6bfa.chunk.css",
-    "static/js/main.ac7d95d8.chunk.js"
+    "static/js/main.d42eabd2.chunk.js"
   ]
 }

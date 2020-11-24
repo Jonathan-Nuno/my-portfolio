@@ -3,11 +3,12 @@ const functions = require('firebase-functions');
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+require('dotenv').config()
 
 const sendGrid = require('@sendgrid/mail');
-const SG_API_KEY = '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';
-const PE = 'jnuno.423@gmail.com';
-const PORT = 5000;
+const SG_API_KEY = process.env.SENDGRID_API_KEY;
+const PE = process.env.Personal_Email;
+const PORT = process.env.PORT;
 
 const app = express();
 

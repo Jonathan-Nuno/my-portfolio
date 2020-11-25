@@ -10,6 +10,7 @@ import resume from '../assets/resume/Jnuno_Resume_11_19_20.pdf'
 import linkedIn from '../assets/images/linkedin.png'
 import resumeImage from '../assets/images/resumeImage.png'
 import webIcon from '../assets/images/webIcon.png'
+import skills from '../assets/images/skills.png'
 
 import { Container, Row } from 'react-bootstrap'
 
@@ -23,8 +24,11 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Jonathan Nuno',
-                    subTitle: 'Resume, LinkedIn & GitHub',
-                    description: 'Alot of description',
+                    secondTitle: 'Skills',
+                    subTitle: 'Software Development Skills',
+                    thirdTitle: '',
+                    builtWith: '',
+                    description: <img className='all-icon' src={skills} alt={skills} />,
                     imgSrc: jnuno,
                     resumeLink: resume,
                     resumeName: <img className='r-icon' src={resumeImage} alt={resumeImage} />,
@@ -37,8 +41,11 @@ class Carousel extends React.Component {
                 {
                     id: 1,
                     title: 'Knitworthy',
-                    subTitle: 'Compares measurements to project stats',
-                    description: 'Alot of description',
+                    secondTitle: 'Project Details',
+                    subTitle: 'Knitworthy',
+                    thirdTitle: 'Built With',
+                    builtWith: 'Javascript, HTML, CSS, Bootstrap and Surge',
+                    description: 'Knitworthy compares project data to real life time and length measurements to put the time and length of yarn that goes into a project into perspective for someone who does not knit or crochet.',
                     imgSrc: knitworthy,
                     resumeLink: '',
                     resumeName: '',
@@ -51,8 +58,11 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title: 'Plannero',
-                    subTitle: 'Keep track of your projects',
-                    description: 'Alot of description',
+                    subTitle: 'Plannero',
+                    secondTitle: 'Project Details',
+                    thirdTitle: 'Built With',
+                    builtWith: 'Javascript, NodeJS, ExpressJS, PostgreSQL, Sequelize, Heroku, HTML, CSS and Bootstrap',
+                    description: 'Plannero allows you to register and log into a personal account or to test out the site by logging in as a guest. Once in, you will have the ability to create a new project, view your projects filtered by status, view details for an existing project, update an existing project, and delete a project.',
                     imgSrc: plannero,
                     resumeLink: '',
                     resumeName: '',

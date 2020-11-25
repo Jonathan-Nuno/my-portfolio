@@ -8,11 +8,11 @@ function CardModal(props) {
   
     return (
         <>
-        <Button variant="primary" onClick={() => setModalShow(true)} >
-          <p>{props.title}</p>
+        <Button className='cardButtons' variant="secondary" onClick={() => setModalShow(true)} >
+          <p>{props.secondTitle}</p>
         </Button>
   
-        <CardModalInfo title={props.title} subTitle={props.subTitle} description={props.description} show={modalShow} onHide={() => setModalShow(false)} />
+        <CardModalInfo builtWith={props.builtWith} thirdTitle={props.thirdTitle} secondTitle={props.secondTitle} subTitle={props.subTitle} description={props.description} show={modalShow} onHide={() => setModalShow(false)} />
         </>
     );
   }

@@ -9,7 +9,7 @@ function CardInfo(props) {
     return(
         <animated.div className='j-card-info' style={style}>
             <p className='j-card-title'>{props.title}</p>
-            <p className='j-card-sub-title'>{props.subTitle}</p>
+            {/* <p className='j-card-sub-title'>{props.subTitle}</p> */}
             <a href={props.resumeLink} target='_blank' rel='noopener noreferrer'>{props.resumeName}</a> 
             <a href={props.link} target='_blank' rel='noopener noreferrer'> {props.name}</a> and
             <a href={props.github} target='_blank' rel='noopener noreferrer'><img className='j-icon' src={props.icon} alt={props.icon} /></a>

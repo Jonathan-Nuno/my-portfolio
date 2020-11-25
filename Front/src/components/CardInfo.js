@@ -11,7 +11,7 @@ function CardInfo(props) {
             <p className='j-card-title'>{props.title}</p>
             {/* <p className='j-card-sub-title'>{props.subTitle}</p> */}
             <a href={props.resumeLink} target='_blank' rel='noopener noreferrer'>{props.resumeName}</a> 
-            <a href={props.link} target='_blank' rel='noopener noreferrer'> {props.name}</a> and
+            <a href={props.link} target='_blank' rel='noopener noreferrer'> {props.name}</a>
             <a href={props.github} target='_blank' rel='noopener noreferrer'><img className='j-icon' src={props.icon} alt={props.icon} /></a>
         </animated.div>
     )

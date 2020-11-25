@@ -8,6 +8,8 @@ import plannero from '../assets/images/Plannero-mobile.png'
 import gHub from '../assets/images/github_icon.png'
 import resume from '../assets/resume/Jnuno_Resume_11_19_20.pdf'
 import linkedIn from '../assets/images/linkedin.png'
+import resumeImage from '../assets/images/resumeImage.png'
+import webIcon from '../assets/images/webIcon.png'
 
 import { Container, Row } from 'react-bootstrap'
 
@@ -25,7 +27,7 @@ class Carousel extends React.Component {
                     description: 'Alot of description',
                     imgSrc: jnuno,
                     resumeLink: resume,
-                    resumeName: 'Resume,',
+                    resumeName: <img className='r-icon' src={resumeImage} alt={resumeImage} />,
                     link: 'https://www.linkedin.com/in/jonathannuno/',
                     name: <img className='r-icon' src={linkedIn} alt={linkedIn} />,
                     github: 'https://github.com/Jonathan-Nuno',
@@ -41,7 +43,7 @@ class Carousel extends React.Component {
                     resumeLink: '',
                     resumeName: '',
                     link: 'http://knitworthy.net/',
-                    name: 'Live Page',
+                    name: <img className='r-icon' src={webIcon} alt={webIcon} />,
                     github: 'https://github.com/abbeyperini/Knitworthy',
                     icon: gHub,
                     selected: true
@@ -55,7 +57,7 @@ class Carousel extends React.Component {
                     resumeLink: '',
                     resumeName: '',
                     link: 'https://plannero.herokuapp.com/',
-                    name: 'Live Page',
+                    name: <img className='r-icon' src={webIcon} alt={webIcon} />,
                     github: 'https://github.com/Jonathan-Nuno/Plannero',
                     icon: gHub,
                     selected: true

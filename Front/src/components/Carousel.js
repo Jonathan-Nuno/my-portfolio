@@ -7,6 +7,7 @@ import knitworthy from '../assets/images/Knitworthy-mobile.png'
 import plannero from '../assets/images/Plannero-mobile.png'
 import gHub from '../assets/images/github_icon.png'
 import resume from '../assets/resume/Jnuno_Resume_11_19_20.pdf'
+import linkedIn from '../assets/images/linkedin.png'
 
 import { Container, Row } from 'react-bootstrap'
 
@@ -25,10 +26,10 @@ class Carousel extends React.Component {
                     resumeLink: resume,
                     resumeName: 'Resume,',
                     link: 'https://www.linkedin.com/in/jonathannuno/',
-                    name: 'LinkedIn',
+                    name: <img className='r-icon' src={linkedIn} alt={linkedIn} />,
                     github: 'https://github.com/Jonathan-Nuno',
                     icon: gHub,
-                    selected: false
+                    selected: true
                 },
                 {
                     id: 1,
@@ -36,12 +37,12 @@ class Carousel extends React.Component {
                     subTitle: 'Compares measurements to project stats',
                     imgSrc: knitworthy,
                     resumeLink: '',
-                    resumeName: '',
+                    resumeName: 'Project Details',
                     link: 'http://knitworthy.net/',
                     name: 'Live Page',
                     github: 'https://github.com/abbeyperini/Knitworthy',
                     icon: gHub,
-                    selected: false
+                    selected: true
                 },
                 {
                     id: 2,
@@ -54,32 +55,33 @@ class Carousel extends React.Component {
                     name: 'Live Page',
                     github: 'https://github.com/Jonathan-Nuno/Plannero',
                     icon: gHub,
-                    selected: false
+                    selected: true
                 },
             ]
 
         }
     }
 
-    handleCardClick = (id, card) => {
-        let items = [...this.state.items];
+    // handleCardClick = (id, card) => {
+    //     let items = [...this.state.items];
 
-        items[id].selected = items[id].selected ? false : true;
+    //     items[id].selected = items[id].selected ? false : true;
 
-        items.forEach(item => {
-            if(item.id !== id) {
-                item.selected = false;
-            }
-        });
+    //     items.forEach(item => {
+    //         if(item.id !== id) {
+    //             item.selected = false;
+    //         }
+    //     });
 
-        this.setState({
-            items
-        });
-    }
+    //     this.setState({
+    //         items
+    //     });
+    // }
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+            // return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+            return <Card item={item} key={item.id} />
         })
     }
 

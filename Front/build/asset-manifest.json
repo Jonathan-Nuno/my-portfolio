@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a34f13b7.chunk.css",
-    "main.js": "/static/js/main.ab469289.chunk.js",
-    "main.js.map": "/static/js/main.ab469289.chunk.js.map",
+    "main.js": "/static/js/main.bbda8025.chunk.js",
+    "main.js.map": "/static/js/main.bbda8025.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2111f9a.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2111f9a.js.map",
     "static/css/2.43b2b750.chunk.css": "/static/css/2.43b2b750.chunk.css",
@@ -14,9 +14,10 @@
     "static/css/2.43b2b750.chunk.css.map": "/static/css/2.43b2b750.chunk.css.map",
     "static/css/main.a34f13b7.chunk.css.map": "/static/css/main.a34f13b7.chunk.css.map",
     "static/js/2.4e5943b4.chunk.js.LICENSE.txt": "/static/js/2.4e5943b4.chunk.js.LICENSE.txt",
-    "static/media/Jnuno_Resume_11_30_20.6232ff51.pdf": "/static/media/Jnuno_Resume_11_30_20.6232ff51.pdf",
+    "static/media/Jnuno_Resume_12_22_20.7987399e.pdf": "/static/media/Jnuno_Resume_12_22_20.7987399e.pdf",
     "static/media/Knitworthy-mobile.d90b071e.png": "/static/media/Knitworthy-mobile.d90b071e.png",
     "static/media/Plannero-mobile.64b15da2.png": "/static/media/Plannero-mobile.64b15da2.png",
+    "static/media/SingleList.1db7573b.png": "/static/media/SingleList.1db7573b.png",
     "static/media/github_icon.5994b25b.png": "/static/media/github_icon.5994b25b.png",
     "static/media/jnuno-profile.760c5254.png": "/static/media/jnuno-profile.760c5254.png",
     "static/media/resumeImage.659c0017.png": "/static/media/resumeImage.659c0017.png",
@@ -28,6 +29,6 @@
     "static/css/2.43b2b750.chunk.css",
     "static/js/2.4e5943b4.chunk.js",
     "static/css/main.a34f13b7.chunk.css",
-    "static/js/main.ab469289.chunk.js"
+    "static/js/main.bbda8025.chunk.js"
   ]
 }

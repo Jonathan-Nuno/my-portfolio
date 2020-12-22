@@ -44,7 +44,7 @@ class App extends React.Component {
         {/* set fluid to true for container to take width of screen */}
         <Container className='p-0' fluid={true}>
 
-          <Navbar className='border-bottom' bg='transparent' expand='lg'>
+          <Navbar className='border-bottom' bg='transparent' expand='sm'>
             <Navbar.Brand>Jonathan Nuno</Navbar.Brand>
 
             {/* aria-controls is used for accessability */}
@@ -52,9 +52,9 @@ class App extends React.Component {
             {/* navbar.collapse is used to make a dropdown based on page size */}
             <Navbar.Collapse id='navbar-toggle'>
               <Nav className="ml-auto">
-                <Link className='nav-link' to='/'>Home</Link>
-                <Link className='nav-link' to='/about'>About Me</Link>
-                <Link className='nav-link' to='/contact'>Contact</Link>                              
+                <Nav.Link eventKey='1' className='nav-link' as={Link} to='/'>Home</Nav.Link>
+                <Nav.Link eventKey='2' className='nav-link' as={Link} to='/about'>About Me</Nav.Link>
+                <Nav.Link eventKey='3' className='nav-link' as={Link} to='/contact'>Contact</Nav.Link>                              
               </Nav>
             </Navbar.Collapse>
           </Navbar>

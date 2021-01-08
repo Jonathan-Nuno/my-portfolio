@@ -7,6 +7,7 @@ import Card from '../components/Card'
 import jnuno from '../assets/images/jnuno-profile.png'
 import knitworthy from '../assets/images/Knitworthy-mobile.png'
 import plannero from '../assets/images/Plannero-mobile.png'
+import gachasphere from '../assets/images/gachasphere-logo.png'
 import singleList from '../assets/images/SingleList.png'
 import gHub from '../assets/images/github_icon.png'
 import resume from '../assets/resume/Jnuno_Resume_12_22_20.pdf'
@@ -60,6 +61,23 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 2,
+                    title: 'GachaSphere',
+                    secondTitle: 'Project Details',
+                    subTitle: 'GachaSphere',
+                    thirdTitle: 'Built Using',
+                    builtWith: 'JavaScript, React, Redux, CSS, Bootstrap, Axios, Node.js, Express, PostgreSQL, JWT and bcrypt',
+                    description: 'Gachasphere was built with the intention of being a central hub for all things mobile gaming. Due to the free-to-play nature of Gacha games, most players are actively playing multiple games at the same time. Unfortunately, the communities for each individual game remain isolated. Gachasphere hopes bridge the gap between existing communities and connect players from all over the world together.',
+                    imgSrc: gachasphere,
+                    resumeLink: '',
+                    resumeName: '',
+                    link: 'http://gachasphere.surge.sh/',
+                    name: <img className='r-icon' src={webIcon} alt={webIcon} />,
+                    github: 'https://github.com/brodri4/Gachasphere-client',
+                    icon: gHub,
+                    selected: true
+                },
+                {
+                    id: 3,
                     title: 'Plannero',
                     subTitle: 'Plannero',
                     secondTitle: 'Project Details',
@@ -76,7 +94,7 @@ class Carousel extends React.Component {
                     selected: true
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: 'SingeList',
                     subTitle: 'SingeList',
                     secondTitle: 'Project Details',

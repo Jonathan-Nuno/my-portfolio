@@ -95,8 +95,8 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 4,
-                    title: 'SingeList',
-                    subTitle: 'SingeList',
+                    title: 'SingleList',
+                    subTitle: 'SingleList',
                     secondTitle: 'Project Details',
                     thirdTitle: 'Built Using',
                     builtWith: 'JavaScript, ReactJS, Redux, NodeJS, ExpressJS, MongoDB, Mongoose, Axios, JSONWebToken, HTML, CSS, Reactstrap and Bootstrap',
